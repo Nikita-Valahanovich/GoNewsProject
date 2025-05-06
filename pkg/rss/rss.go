@@ -32,7 +32,7 @@ type Item struct {
 	Link        string `xml:"link"`
 }
 
-// Parse читает rss-поток и возвращет
+// Parse читает rss-поток и возвращает
 // массив раскодированных новостей.
 func Parse(url string) ([]storage.Post, error) {
 	resp, err := http.Get(url)

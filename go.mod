@@ -3,6 +3,7 @@ module GoNews
 go 1.24
 
 require (
+	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.1
 	github.com/grokify/html-strip-tags-go v0.1.0
 	github.com/jackc/pgx/v4 v4.18.3
